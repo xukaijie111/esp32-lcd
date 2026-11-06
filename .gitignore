@@ -1,0 +1,17 @@
+# Build output
+build/
+
+# Component manager managed components (auto-fetched by idf.py reconfigure)
+managed_components/
+dependencies.lock
+
+# Reference repos (large clones, not part of this project)
+reference/
+
+# IDE / editor
+.vscode/
+.idea/
+.DS_Store
+
+# ESP-IDF misc
+sdkconfig.old
